@@ -1,5 +1,5 @@
 /*
-QuizMaster AI – Intelligent Adaptive Quiz & Student Performance Analysis System
+QuizMaster AI â€“ Intelligent Adaptive Quiz & Student Performance Analysis System
 
 Single-file C++ program compatible with Dev-C++ (standard C++).
 Author: Generated for educational use.
@@ -1026,7 +1026,7 @@ void generateAnalysisAndRecommendations(StudentRecord &student, char topics[][40
     // Motivational message
     if (student.percentage >= 85.0) student.motivationalMessage = "Excellent work! Keep exploring advanced concepts.";
     else if (student.percentage >= 70.0) student.motivationalMessage = "Good job! A bit more practice will get you to excellence.";
-    else if (student.percentage >= 50.0) student.motivationalMessage = "You're doing fine — focus on weak topics and practice consistently.";
+    else if (student.percentage >= 50.0) student.motivationalMessage = "You're doing fine â€” focus on weak topics and practice consistently.";
     else student.motivationalMessage = "Don't give up! Small daily steps and practice will yield big results.";
 }
 
